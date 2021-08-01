@@ -1,0 +1,21 @@
+[debug] [2021-08-01T03:45:38.481Z] ----------------------------------------------------------------------
+[debug] [2021-08-01T03:45:38.487Z] Command:       /usr/bin/node /usr/local/bin/firebase init
+[debug] [2021-08-01T03:45:38.489Z] CLI Version:   9.16.0
+[debug] [2021-08-01T03:45:38.489Z] Platform:      linux
+[debug] [2021-08-01T03:45:38.489Z] Node Version:  v10.19.0
+[debug] [2021-08-01T03:45:38.490Z] Time:          Sun Aug 01 2021 03:45:38 GMT+0000 (Greenwich Mean Time)
+[debug] [2021-08-01T03:45:38.490Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-08-01T03:45:38.503Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-08-01T03:45:38.503Z] > authorizing via signed-in user (anthonychibuike246@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/tony/WebstormProjects/messanger-clone
+
