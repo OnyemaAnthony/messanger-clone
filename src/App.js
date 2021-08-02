@@ -5,7 +5,7 @@ import Message from "./componets/message";
 
 function App() {
     const [input, setInput] = useState('');
-    const [messages, setMessages] = useState([  ]);
+    const [messages, setMessages] = useState([]);
     const [username, setUsername] = useState('');
 
 
@@ -30,7 +30,7 @@ function App() {
 
                 {
                     messages.map(message => (
-                        <Message text={message.text} username={message.username}/>
+                        <Message message={message} username={username}/>
 
                     ))
                 }
