@@ -10,7 +10,7 @@ function Message({message, username}) {
             <Card className={`message ${isUser && 'message__userCard'}`}>
                 <CardContent>
                     <Typography color={"white"} variant={"h5"} component={"h2"}/>
-                    {username} : {message.text}
+                    {username} : {message.message}
                 </CardContent>
             </Card>
         </div>
