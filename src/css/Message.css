@@ -9,9 +9,29 @@
     color: black;
     text-align: left !important;
 }
+
 .message__userCard{
     background: #0b81ff !important;
 }
-.message__userCard{
+.message__guestCard{
     background: #e9e9eb !important;
+}
+.app{
+    text-align: center;
+}
+.app_form{
+    padding: 20px;
+  position: fixed;
+    bottom: 0;
+    z-index: 1;
+    background-color: #e9e9eb;
+    width: 100%;
+    margin: 20px;
+}
+.header{
+    margin-top: 2rem;
+    display: grid;
+    place-items: center;
+    margin-left: auto;
+    margin-right: auto;
 }
