@@ -45,8 +45,8 @@ function App() {
 
 
                     <FormControl>
-                        <InputLabel>Enter a message </InputLabel>
-                        <Input type="text" value={input} onChange={event => setInput(event.target.value)} />
+
+                        <Input placeholder='Enter a message...' type="text" value={input} onChange={event => setInput(event.target.value)} />
                         <IconButton disabled={!input} variant={"contained"} type={"submit"} color={"primary"} onClick={sendMessage}>
                             <Send/>
 
