@@ -44,10 +44,10 @@ function App() {
             <form className={'app_form'}>
 
 
-                    <FormControl>
+                    <FormControl className='app_formControl'>
 
-                        <Input placeholder='Enter a message...' type="text" value={input} onChange={event => setInput(event.target.value)} />
-                        <IconButton disabled={!input} variant={"contained"} type={"submit"} color={"primary"} onClick={sendMessage}>
+                        <Input className='app_input' placeholder='Enter a message...' type="text" value={input} onChange={event => setInput(event.target.value)} />
+                        <IconButton className='app_iconButton' disabled={!input} variant={"contained"} type={"submit"} color={"primary"} onClick={sendMessage}>
                             <Send/>
 
                         </IconButton>
